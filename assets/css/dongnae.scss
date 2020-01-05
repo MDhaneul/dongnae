@@ -40,6 +40,8 @@ body{font-family: DNbb, NNp; font-weight: 400; font-size: 3.3vh; color: #333; li
 #cnt1{background-color: #333; color: #fff;}
 .head_h1{top: 30vh; font-size: 13vw; width: 100vw; z-index: 300;}
 .head_p{font-family: NNp; font-size: 7vw; top: 45vh;}
+.ah{font-size: 7vw;}
+.ap{font-family: NNp;}
 #footer{
     width: 100vw; height: 100vh; background-color: #333; color: #ccc; overflow: hidden;
     .back_head{top: 5vh; right: 1vw; width: 25vw; height: 17vh;}
@@ -160,17 +162,17 @@ section article{
 }
 
 /* about us */
-#cnt2.w150{
+#cnt2.about_cnt2{
     width: 150vw;
-    .about_ap{
+    .ap{
         font-family: NNp; width: 100%; text-align: center; top: 25vh;
         img{width: 5vw; height: auto; vertical-align: middle;}
     }
     .about_whale{background: url(../images/about/about_whale.svg) no-repeat; width: 30vw; height: 10vh; bottom: -15vh; left: 40vw;}
     .boat_star{background: url(../images/about/boat_star.svg) no-repeat; width: 60vw; height: 30vh; top: 10vh; left: 20vw; animation: boat_star 1.5s infinite;}
 }
-#cnt3.w150{width: 150vw;}
-#cnt4.w200{
+#cnt3.about_cnt3{width: 150vw;}
+#cnt4.about_cnt4{
     width: 200vw;
     .philosophy{top: 23vh; left: 50vw; width: 95vw; height: auto;}
     .island_tree{width: 60vw; height: 40vh; bottom: 0vh; right: -3vw; background: url(../images/about/about_island.svg) no-repeat right bottom; background-size: contain; z-index: 900;}
@@ -185,7 +187,32 @@ section article{
     }
 }
 
-
+/* project */
+#cnt2.pro_cnt2{
+    width: 200vw;
+}
+#cnt3.pro_cnt3{
+    width: 100vw;
+}
+#cnt4.pro_cnt4{
+    width: 100vw;
+}
+.pro_coming{
+    width: 100vw;
+}
+/* works */
+#cnt2.work_cnt2{
+    width: 200vw;
+}
+.work_kong_bg{
+    width: 50vw;
+}
+#cnt3.work_cnt3{
+    width: 200vw;
+}
+.work_font_bg{
+    width: 50vw;
+}
 
 @keyframes txt_flame {
     0%{color: #fff;}
