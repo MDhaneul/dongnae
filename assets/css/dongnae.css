@@ -93,7 +93,8 @@ body {
 .head_p {
   font-family: NNp;
   font-size: 7vw;
-  top: 45vh; }
+  top: 45vh;
+  z-index: 5; }
 
 .ah {
   font-size: 7vw; }
@@ -456,10 +457,43 @@ section article .idx_link {
       animation: idx_star 3s ease-in-out 9s infinite; }
 
 /* about us */
+#cnt1.about_cnt1 .about_bubbles .bubbles {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #3B98D0;
+  z-index: 1; }
+  #cnt1.about_cnt1 .about_bubbles .bubbles.big {
+    width: 15vw;
+    height: 15vw;
+    bottom: 0vh;
+    left: 33vw;
+    opacity: 0;
+    animation: bubbles2 5s ease-in-out infinite; }
+  #cnt1.about_cnt1 .about_bubbles .bubbles.middle {
+    width: 10vw;
+    height: 10vw;
+    bottom: 1vh;
+    left: 40vw;
+    opacity: 0;
+    animation: bubbles3 2s ease-in-out infinite; }
+  #cnt1.about_cnt1 .about_bubbles .bubbles.small {
+    width: 6vw;
+    height: 6vw;
+    bottom: 3vh;
+    left: 30vw;
+    opacity: 0;
+    animation: bubbles2 3s ease-in-out infinite; }
+  #cnt1.about_cnt1 .about_bubbles .bubbles.micro {
+    width: 2vw;
+    height: 2vw;
+    bottom: 0vh;
+    left: 35vw;
+    opacity: 0;
+    animation: bubbles3 4s ease-in-out infinite; }
+
 #cnt2.about_cnt2 {
   width: 150vw; }
   #cnt2.about_cnt2 .ap {
-    font-family: NNp;
     width: 100%;
     text-align: center;
     top: 25vh; }
@@ -483,6 +517,22 @@ section article .idx_link {
 
 #cnt3.about_cnt3 {
   width: 150vw; }
+  #cnt3.about_cnt3 .ah {
+    top: 20vh;
+    left: 20vw; }
+  #cnt3.about_cnt3 .ap {
+    bottom: 18vh;
+    left: 13vw; }
+  #cnt3.about_cnt3 .type_logo {
+    width: 40vw;
+    height: auto;
+    top: 45vh;
+    left: 33vw; }
+  #cnt3.about_cnt3 .ci_down {
+    width: 30vw;
+    height: auto;
+    bottom: 0;
+    right: 30vw; }
 
 #cnt4.about_cnt4 {
   width: 200vw; }
@@ -546,31 +596,223 @@ section article .idx_link {
       animation: idx_star3 3s ease-in-out 3s infinite; }
 
 /* project */
+#scrollX.texture_bg {
+  background: url(../images/project/texture_bg.jpg) repeat;
+  background-size: cover; }
+
+.pro_kong_meat {
+  bottom: 0;
+  right: -15vw; }
+
 #cnt2.pro_cnt2 {
   width: 200vw; }
+  #cnt2.pro_cnt2 .pro_dn_font {
+    top: 20vw;
+    left: 40vw; }
+  #cnt2.pro_cnt2 .ah {
+    top: 65vh;
+    left: 55vw; }
+  #cnt2.pro_cnt2 .ap {
+    top: 72vh;
+    left: 55vw; }
+  #cnt2.pro_cnt2 .pro_kong_flower {
+    top: 23vw;
+    right: -10vw; }
+  #cnt2.pro_cnt2 .pro_ddang {
+    bottom: 10vh;
+    right: 20vw; }
 
 #cnt3.pro_cnt3 {
   width: 100vw; }
+  #cnt3.pro_cnt3 .ah {
+    top: 30vh;
+    left: 25vw; }
+  #cnt3.pro_cnt3 .ap {
+    top: 37vh;
+    left: 25vw; }
+  #cnt3.pro_cnt3 .pro_co {
+    bottom: 10vh;
+    right: 15vw; }
 
 #cnt4.pro_cnt4 {
   width: 100vw; }
+  #cnt4.pro_cnt4 .ah {
+    top: 70vh;
+    left: 17vw; }
+  #cnt4.pro_cnt4 .ap {
+    top: 77vh;
+    left: 17vw; }
+  #cnt4.pro_cnt4 .pro_video {
+    top: 20vh;
+    left: 5vw; }
 
 .pro_coming {
   width: 100vw; }
+  .pro_coming p {
+    top: 40vh;
+    left: 23vw; }
+  .pro_coming .pro_kong_school {
+    top: 60vh;
+    left: 5vw; }
+  .pro_coming .pro_namuri {
+    top: 15vh;
+    right: -15vw;
+    z-index: 880; }
 
 /* works */
+.work_loading {
+  width: 60vw;
+  height: 15vh;
+  bottom: 0;
+  left: 20vw;
+  animation: work_load 3s linear infinite; }
+
+#cnt2.work_cnt2 .ah, #cnt3.work_cnt3 .ah {
+  bottom: 12vh;
+  left: 80vw;
+  z-index: 600; }
+
+#cnt2.work_cnt2 .ap, #cnt3.work_cnt3 .ap {
+  top: 13vh;
+  left: 20vw; }
+
 #cnt2.work_cnt2 {
-  width: 200vw; }
+  width: 200vw;
+  background: #bad9a0; }
+  #cnt2.work_cnt2 .swiper-pos {
+    min-width: 175vw;
+    min-height: 50vh;
+    bottom: 0;
+    right: -15vw; }
+    #cnt2.work_cnt2 .swiper-pos img {
+      z-index: 600; }
+  #cnt2.work_cnt2 .swiper-container {
+    width: 100%;
+    height: 100%; }
+    #cnt2.work_cnt2 .swiper-container .swiper-wrapper {
+      z-index: -1;
+      top: 0.5%;
+      left: 48%; }
+      #cnt2.work_cnt2 .swiper-container .swiper-wrapper .swiper-slide img {
+        width: 45.8%;
+        height: auto; }
+      #cnt2.work_cnt2 .swiper-container .swiper-wrapper .swiper-slide p {
+        position: absolute;
+        top: 5%;
+        left: 4%;
+        font-size: 5.5vw;
+        width: 35vw;
+        color: #fff;
+        background: #333; }
+    #cnt2.work_cnt2 .swiper-container .swiper-button-prev, #cnt2.work_cnt2 .swiper-container .swiper-button-next {
+      left: 94%; }
+    #cnt2.work_cnt2 .swiper-container .swiper-button-prev img, #cnt2.work_cnt2 .swiper-container .swiper-button-next img {
+      width: 90%;
+      height: auto; }
+    #cnt2.work_cnt2 .swiper-container .swiper-button-prev::after, #cnt2.work_cnt2 .swiper-container .swiper-button-next::after {
+      visibility: hidden; }
+    #cnt2.work_cnt2 .swiper-container .swiper-button-prev {
+      top: 7%; }
+    #cnt2.work_cnt2 .swiper-container .swiper-button-next {
+      top: 23%; }
+  #cnt2.work_cnt2 .work_co {
+    top: 27vh;
+    left: 130vw;
+    width: 40vw;
+    height: auto; }
+  #cnt2.work_cnt2 .work_tall {
+    bottom: 63vh;
+    left: 85vw;
+    width: 35vw;
+    height: auto; }
+  #cnt2.work_cnt2 .work_ddang {
+    top: 5vh;
+    left: 164vw;
+    width: 30vw;
+    height: auto; }
+  #cnt2.work_cnt2 .kongster_logo {
+    bottom: 3vh;
+    right: -10vw;
+    width: 60vw;
+    height: auto;
+    z-index: 700; }
 
 .work_kong_bg {
-  width: 50vw; }
+  width: 50vw;
+  height: 100vh;
+  background: url(../images/works/kong_bg.jpg);
+  background-size: 50vw auto; }
 
 #cnt3.work_cnt3 {
-  width: 200vw; }
+  width: 200vw;
+  background: #47a4dc url(../images/works/font_bg_word.svg) no-repeat right top; }
+  #cnt3.work_cnt3 .swiper-pos {
+    min-width: 175vw;
+    min-height: 50vh;
+    bottom: 0;
+    right: -15vw; }
+    #cnt3.work_cnt3 .swiper-pos img {
+      z-index: 600; }
+  #cnt3.work_cnt3 .swiper-container {
+    width: 100%;
+    height: 100%; }
+    #cnt3.work_cnt3 .swiper-container .swiper-wrapper {
+      z-index: -1;
+      top: 0.5%;
+      left: 48%; }
+      #cnt3.work_cnt3 .swiper-container .swiper-wrapper .swiper-slide img {
+        width: 45.8%;
+        height: auto; }
+      #cnt3.work_cnt3 .swiper-container .swiper-wrapper .swiper-slide p {
+        position: absolute;
+        top: 5%;
+        left: 4%;
+        font-size: 5.5vw;
+        width: 50vw;
+        color: #fff;
+        background: #333; }
+    #cnt3.work_cnt3 .swiper-container .swiper-button-prev, #cnt3.work_cnt3 .swiper-container .swiper-button-next {
+      left: 94%; }
+    #cnt3.work_cnt3 .swiper-container .swiper-button-prev img, #cnt3.work_cnt3 .swiper-container .swiper-button-next img {
+      width: 90%;
+      height: auto; }
+    #cnt3.work_cnt3 .swiper-container .swiper-button-prev::after, #cnt3.work_cnt3 .swiper-container .swiper-button-next::after {
+      visibility: hidden; }
+    #cnt3.work_cnt3 .swiper-container .swiper-button-prev {
+      top: 7%; }
+    #cnt3.work_cnt3 .swiper-container .swiper-button-next {
+      top: 23%; }
+  #cnt3.work_cnt3 .font_ngg {
+    top: 25vh;
+    right: -15vw;
+    width: 70vw;
+    height: auto; }
 
 .work_font_bg {
-  width: 50vw; }
+  width: 50vw;
+  height: 100vh;
+  background: url(../images/works/font_bg.jpg);
+  background-size: 50vw auto; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dpi), screen and (min-resolution: 2dppx) {
+  #cnt2.wrok_cnt2 .work_kong_bg {
+    background: url(../images/works/kong_bg_2x.jpg); }
+
+  #cnt2.wrok_cnt2 .work_font_bg {
+    background: url(../images/works/font_bg_2x.jpg); } }
+@keyframes work_load {
+  0% {
+    background: none; }
+  2% {
+    background: url(../images/works/20persent.svg) no-repeat; }
+  40% {
+    background: url(../images/works/40persent.svg) no-repeat; }
+  60% {
+    background: url(../images/works/60persent.svg) no-repeat; }
+  80% {
+    background: url(../images/works/80persent.svg) no-repeat; }
+  100% {
+    background: url(../images/works/100persent.svg) no-repeat; } }
 @keyframes txt_flame {
   0% {
     color: #fff; }
@@ -582,7 +824,7 @@ section article .idx_link {
   0% {
     margin-left: 0vw; }
   100% {
-    margin-left: -200vw; } }
+    margin-left: -120vw; } }
 @keyframes whale_motion {
   0% {
     top: 150vh;
@@ -607,6 +849,32 @@ section article .idx_link {
     top: -100vh;
     transform: scale(1.5);
     opacity: 1; } }
+@keyframes bubbles2 {
+  0% {
+    transform: scale(0.5);
+    opacity: 0; }
+  20% {
+    left: 20vw;
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    left: 40vw;
+    bottom: 100vh;
+    transform: scale(1.5);
+    opacity: 0; } }
+@keyframes bubbles3 {
+  0% {
+    transform: scale(0.5);
+    opacity: 0; }
+  20% {
+    left: 50vw;
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    left: 20vw;
+    bottom: 100vh;
+    transform: scale(1.5);
+    opacity: 0; } }
 @keyframes idx_bird {
   0% {
     top: 20vh; }

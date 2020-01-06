@@ -56,9 +56,4 @@ $(document).ready(function () {
             scrollLeft: 0
         });
     });
-    //bg변경
-    var pos250 = $('.pos250').offset().left;
-    var pos400 = $('.pos400').offset().left;
-    var bgScroll= $(window).scrollLeft();
-    console.log(pos250, pos400);
 });
