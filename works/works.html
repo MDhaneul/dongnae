@@ -15,6 +15,8 @@
     $(document).ready(function () {
       var mySwiper = new Swiper('#cnt2 .swiper-container', {
         effect: 'fade',
+        nested: true,
+        touchEventsTarget: 'wrapper',
         loop: true,
 
         navigation: {
@@ -23,8 +25,10 @@
         },
       });
 
-      var mySwiper = new Swiper('#cnt3 .swiper-container', {
+      var mySwiper2 = new Swiper('#cnt3 .swiper-container', {
         effect: 'fade',
+        nested: true,
+        touchEventsTarget: 'wrapper',
         loop: true,
 
         navigation: {
