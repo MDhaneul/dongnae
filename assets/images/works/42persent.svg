@@ -8,6 +8,6 @@
 	.st2{fill:#EF4748;}
 </style>
 <polygon class="st0" points="431,0 379,0 353,45 379,90 431,90 457,45 "/>
-<rect x="180" class="st1" width="90" height="90"/>
+<rect x="180" y="0" class="st1" width="90" height="90"/>
 <circle class="st2" cx="45" cy="45" r="45"/>
 </svg>

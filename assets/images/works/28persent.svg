@@ -6,6 +6,6 @@
 	.st0{fill:#F47820;}
 	.st1{fill:#EF4748;}
 </style>
-<rect x="180" class="st0" width="90" height="90"/>
+<rect x="180" y="0" class="st0" width="90" height="90"/>
 <circle class="st1" cx="45" cy="45" r="45"/>
 </svg>

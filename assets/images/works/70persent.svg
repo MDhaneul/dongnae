@@ -3,8 +3,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 810 90" style="enable-background:new 0 0 810 90;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#C3E2C1;}
+	.st0{fill:#9FD6F4;}
+	.st1{fill:#FDEB01;}
+	.st2{fill:#C3E2C1;}
 </style>
-<path class="st0" d="M795.8,90h-61.7c-7.8,0-14.2-6.4-14.2-14.2V14.2C720,6.4,726.4,0,734.2,0h61.7c7.8,0,14.2,6.4,14.2,14.2v61.7
+<polygon class="st0" points="431,0 379,0 353,45 379,90 431,90 457,45 "/>
+<polygon class="st1" points="585,0 599.7,29.7 632.5,34.5 608.8,57.7 614.4,90.4 585,74.9 555.6,90.4 561.2,57.7 537.5,34.5 
+	570.3,29.7 "/>
+<path class="st2" d="M795.8,90h-61.7c-7.8,0-14.2-6.4-14.2-14.2V14.2C720,6.4,726.4,0,734.2,0h61.7c7.8,0,14.2,6.4,14.2,14.2v61.7
 	C810,83.6,803.6,90,795.8,90z"/>
 </svg>

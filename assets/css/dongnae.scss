@@ -32,6 +32,7 @@ header, section, article, footer{float: left;}
 .clearfix::after{content: ""; display: block; clear: both;}
 .sr-only{position: absolute; left: -9999px; top: 0;}
 .c_white{color: #fff;}
+#header #hamburger .line.bg_black{background-color: #333}
 
 /* common */
 body{font-family: DNbb, NNp; font-weight: 400; font-size: 3.3vh; color: #333; line-height: 1.2; word-break: keep-all;}
@@ -185,11 +186,11 @@ section article{
     .ah{top: 20vh; left: 20vw;}
     .ap{bottom: 18vh; left: 13vw;}
     .type_logo{width: 40vw; height: auto; top: 45vh; left: 33vw;}
-    .ci_down{width: 30vw; height: auto; bottom: 0; right: 30vw;}
+    .ci_down{width: 30vw; height: auto; top: 15vh; right: 30vw;}
 }
 #cnt4.about_cnt4{
     width: 200vw;
-    .philosophy{top: 23vh; left: 50vw; width: 95vw; height: auto;}
+    .philosophy{top: 23vh; left: 55vw; width: 85vw; height: auto;}
     .island_tree{width: 60vw; height: 40vh; bottom: 0vh; right: -3vw; background: url(../images/about/about_island.svg) no-repeat right bottom; background-size: contain; z-index: 900;}
     .whale_star{top: 40vh; left: 10vw; width: 100vw; height: 50vh; background: url(../images/about/whale_star.svg) no-repeat; opacity: 0.5;}
     .star{background: url(../images/about/about_star.svg) no-repeat;
@@ -232,7 +233,9 @@ section article{
     .pro_namuri{top: 15vh; right: -15vw; z-index: 880;}
 }
 /* works */
-.work_loading{width: 60vw; height: 15vh; bottom: 0; left: 20vw; animation: work_load 3s linear infinite;}
+#cnt1{@include transition(all 0.4s);
+    .work_loading{width: 60vw; height: 15vh; bottom: 0; left: 20vw; animation: work_load 5s linear infinite;}
+}
 #cnt2.work_cnt2 .ah, #cnt3.work_cnt3 .ah{bottom: 12vh; left: 80vw; z-index: 600;}
 #cnt2.work_cnt2 .ap, #cnt3.work_cnt3 .ap{top: 13vh; left: 20vw;}
 #cnt2.work_cnt2{
@@ -294,11 +297,14 @@ screen and (min-resolution : 2dppx) {
 
 @keyframes work_load{
     0%{background: none;}
-    2%{background: url(../images/works/20persent.svg) no-repeat;}
-    40%{background: url(../images/works/40persent.svg) no-repeat;}
-    60%{background: url(../images/works/60persent.svg) no-repeat;}
-    80%{background: url(../images/works/80persent.svg) no-repeat;}
-    100%{background: url(../images/works/100persent.svg) no-repeat;}
+    13%{background: url(../images/works/14persent.svg) no-repeat;}
+    26%{background: url(../images/works/28persent.svg) no-repeat;}
+    39%{background: url(../images/works/42persent.svg) no-repeat;}
+    52%{background: url(../images/works/56persent.svg) no-repeat;}
+    65%{background: url(../images/works/70persent.svg) no-repeat;}
+    78%{background: url(../images/works/82persent.svg) no-repeat;}
+    91%{background: url(../images/works/100persent.svg) no-repeat;}
+    100%{background: none;}
 }
 @keyframes txt_flame{
     0%{color: #fff;}

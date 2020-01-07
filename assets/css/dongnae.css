@@ -62,6 +62,9 @@ header, section, article, footer {
 .c_white {
   color: #fff; }
 
+#header #hamburger .line.bg_black {
+  background-color: #333; }
+
 /* common */
 body {
   font-family: DNbb, NNp;
@@ -531,15 +534,15 @@ section article .idx_link {
   #cnt3.about_cnt3 .ci_down {
     width: 30vw;
     height: auto;
-    bottom: 0;
+    top: 15vh;
     right: 30vw; }
 
 #cnt4.about_cnt4 {
   width: 200vw; }
   #cnt4.about_cnt4 .philosophy {
     top: 23vh;
-    left: 50vw;
-    width: 95vw;
+    left: 55vw;
+    width: 85vw;
     height: auto; }
   #cnt4.about_cnt4 .island_tree {
     width: 60vw;
@@ -660,12 +663,16 @@ section article .idx_link {
     z-index: 880; }
 
 /* works */
-.work_loading {
-  width: 60vw;
-  height: 15vh;
-  bottom: 0;
-  left: 20vw;
-  animation: work_load 3s linear infinite; }
+#cnt1 {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s; }
+  #cnt1 .work_loading {
+    width: 60vw;
+    height: 15vh;
+    bottom: 0;
+    left: 20vw;
+    animation: work_load 5s linear infinite; }
 
 #cnt2.work_cnt2 .ah, #cnt3.work_cnt3 .ah {
   bottom: 12vh;
@@ -803,16 +810,22 @@ section article .idx_link {
 @keyframes work_load {
   0% {
     background: none; }
-  2% {
-    background: url(../images/works/20persent.svg) no-repeat; }
-  40% {
-    background: url(../images/works/40persent.svg) no-repeat; }
-  60% {
-    background: url(../images/works/60persent.svg) no-repeat; }
-  80% {
-    background: url(../images/works/80persent.svg) no-repeat; }
+  13% {
+    background: url(../images/works/14persent.svg) no-repeat; }
+  26% {
+    background: url(../images/works/28persent.svg) no-repeat; }
+  39% {
+    background: url(../images/works/42persent.svg) no-repeat; }
+  52% {
+    background: url(../images/works/56persent.svg) no-repeat; }
+  65% {
+    background: url(../images/works/70persent.svg) no-repeat; }
+  78% {
+    background: url(../images/works/82persent.svg) no-repeat; }
+  91% {
+    background: url(../images/works/100persent.svg) no-repeat; }
   100% {
-    background: url(../images/works/100persent.svg) no-repeat; } }
+    background: none; } }
 @keyframes txt_flame {
   0% {
     color: #fff; }
