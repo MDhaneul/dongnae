@@ -16,8 +16,8 @@
     url(../fonts/NanumPen.ttf) format("truetype");
 }
 
-body, h1, h2, h3, h4, h5, ul, p, button{margin: 0; padding: 0;}
-h1, h2, h3, h4, h5{font-size: inherit; font-weight: inherit;}
+body, h1, h2, h3, ul, p, button{margin: 0; padding: 0;}
+h1, h2, h3{font-size: inherit; font-weight: inherit;}
 ul{list-style: none;}
 a:link, a:visited, a:hover, a:active{text-decoration: none; color: inherit;}
 img{vertical-align: top; max-width: 100%; height: auto;}
@@ -35,8 +35,7 @@ header, section, article, footer{float: left;}
 
 /* common */
 body{font-family: DNbb, NNp; font-weight: 400; font-size: 3.3vh; color: #333; line-height: 1.2; word-break: keep-all;}
-#scrollX{@include transition(background-image 0.5s);
-    width: 700vw; height: 100vh; overflow: hidden;}
+#scrollX{width: 700vw; height: 100vh; overflow: hidden;}
 #cnt1, #cnt2, #cnt3, #cnt4{width: 100vw; height: 100vh;}
 #cnt1{background-color: #333; color: #fff;}
 .head_h1{top: 30vh; font-size: 13vw; width: 100vw; z-index: 300;}

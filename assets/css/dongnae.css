@@ -6,11 +6,11 @@
   font-family: NNp;
   font-weight: 400;
   src: url(../fonts/NanumPen.woff2) format("woff2"), url(../fonts/NanumPen.woff) format("woff"), url(../fonts/NanumPen.ttf) format("truetype"); }
-body, h1, h2, h3, h4, h5, ul, p, button {
+body, h1, h2, h3, ul, p, button {
   margin: 0;
   padding: 0; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   font-size: inherit;
   font-weight: inherit; }
 
@@ -72,9 +72,6 @@ body {
   word-break: keep-all; }
 
 #scrollX {
-  -webkit-transition: background-image 0.5s;
-  -o-transition: background-image 0.5s;
-  transition: background-image 0.5s;
   width: 700vw;
   height: 100vh;
   overflow: hidden; }
