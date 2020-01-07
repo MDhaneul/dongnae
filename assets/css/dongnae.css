@@ -72,6 +72,9 @@ body {
   word-break: keep-all; }
 
 #scrollX {
+  -webkit-transition: background-image 0.5s;
+  -o-transition: background-image 0.5s;
+  transition: background-image 0.5s;
   width: 700vw;
   height: 100vh;
   overflow: hidden; }
@@ -257,10 +260,10 @@ body {
   background: url(../images/common/bg1.svg); }
 
 .change_bg.evening {
-  background: url(../images/common/bg2.svg); }
+  background-image: url(../images/common/bg2.svg); }
 
 .change_bg.night {
-  background: url(../images/common/bg3.svg); }
+  background-image: url(../images/common/bg3.svg); }
 
 .pos250 {
   top: 0;

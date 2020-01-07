@@ -37,7 +37,7 @@ $(document).ready(function () {
         if (scrollX>=$('.star_motion').offset().left - 80) $menu.parent().addClass("op");
         else if (scrollX<$('.star_motion').offset().left) $menu.parent().removeClass("op");
 
-        if (scrollX>=$('.pos250').offset().left) $('.change_bg').removeClass("night").addClass("evening");
+		if (scrollX>=$('.pos250').offset().left) $('.change_bg').removeClass("night").addClass("evening");
         if (scrollX>=$('.pos400').offset().left) {
             $('.change_bg').removeClass("evening").addClass("night");
             $('#cnt4').addClass("c_white");
