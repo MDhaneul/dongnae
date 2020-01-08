@@ -572,7 +572,7 @@ section article .idx_link {
       height: 7vh;
       top: -20vh;
       right: 40vw;
-      animation: idx_star2 5s ease-out 4s infinite; }
+      animation: idx_star3 5s ease-out 4s infinite; }
     #cnt4.about_cnt4 .star.stars3 {
       width: 5vw;
       height: 5vh;
@@ -582,19 +582,19 @@ section article .idx_link {
     #cnt4.about_cnt4 .star.stars4 {
       width: 14vw;
       height: 14vh;
-      top: -20vh;
-      right: 35vw;
-      animation: idx_star 3s ease-in-out 9s infinite; }
+      top: -30vh;
+      right: 45vw;
+      animation: idx_star2 3s ease-in-out 9s infinite; }
     #cnt4.about_cnt4 .star.stars5 {
       width: 12vw;
       height: 12vh;
-      top: -20vh;
+      top: -30vh;
       right: 20vw;
       animation: idx_star3 4s ease-in-out 6s infinite; }
     #cnt4.about_cnt4 .star.stars6 {
       width: 17vw;
       height: 17vh;
-      top: -20vh;
+      top: -30vh;
       right: 15vw;
       animation: idx_star3 3s ease-in-out 3s infinite; }
 

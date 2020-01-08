@@ -195,11 +195,11 @@ section article{
     .whale_star{top: 40vh; left: 10vw; width: 100vw; height: 50vh; background: url(../images/about/whale_star.svg) no-repeat; opacity: 0.5;}
     .star{background: url(../images/about/about_star.svg) no-repeat;
         &.stars1{width: 10vw; height: 10vh; top: -20vh; right: 5vw; animation: idx_star 6s ease-in-out 2s infinite;}
-        &.stars2{width: 7vw; height: 7vh; top: -20vh; right: 40vw; animation: idx_star2 5s ease-out 4s infinite;}
+        &.stars2{width: 7vw; height: 7vh; top: -20vh; right: 40vw; animation: idx_star3 5s ease-out 4s infinite;}
         &.stars3{width: 5vw; height: 5vh; top: -20vh; right: 10vw; animation: idx_star2 4s ease-out 5s infinite;}
-        &.stars4{width: 14vw; height: 14vh; top: -20vh; right: 35vw; animation: idx_star 3s ease-in-out 9s infinite;}
-        &.stars5{width: 12vw; height: 12vh; top: -20vh; right: 20vw; animation: idx_star3 4s ease-in-out 6s infinite;}
-        &.stars6{width: 17vw; height: 17vh; top: -20vh; right: 15vw; animation: idx_star3 3s ease-in-out 3s infinite;}
+        &.stars4{width: 14vw; height: 14vh; top: -30vh; right: 45vw; animation: idx_star2 3s ease-in-out 9s infinite;}
+        &.stars5{width: 12vw; height: 12vh; top: -30vh; right: 20vw; animation: idx_star3 4s ease-in-out 6s infinite;}
+        &.stars6{width: 17vw; height: 17vh; top: -30vh; right: 15vw; animation: idx_star3 3s ease-in-out 3s infinite;}
     }
 }
 
